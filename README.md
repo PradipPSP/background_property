@@ -25,29 +25,29 @@ Note:
 2. Background Image Property:
 
     1. background-image: url("") [Direct link]
-       background-image: url("./rsc/bg-jpg") [Internal link]
+    2. background-image: url("./rsc/bg-jpg") [Internal link]
 
-    2. background-repeat: no-repeat [Recommended]
-       background-repeat: repeat-x [left to right]
-       background-repeat: repeat-y [top to bottom]
+    1. background-repeat: no-repeat [Recommended]
+    2. background-repeat: repeat-x [left to right]
+    3. background-repeat: repeat-y [top to bottom]
      
-    3. background-size: 100px; [rectangle view]
-       background-size: 100px 100px; [squire view]
-       background-size: auto; [dafult]
-       background-size: cover; [Recommended]
-       background-size: contain; [শুধুমাত্র যতটুকু কনেটন্ট থাকবে ততটুকু কভার করবে]
+    1. background-size: 100px; [rectangle view]
+    2. background-size: 100px 100px; [squire view]
+    3. background-size: auto; [dafult]
+    4. background-size: cover; [Recommended]
+    5. background-size: contain; [শুধুমাত্র যতটুকু কনেটন্ট থাকবে ততটুকু কভার করবে]
 
-    4. background-position: top; [default] [ছবির উপর হতে শুরু হবে]
-       background-position: bottom; 
-       background-position: center center; [Recommended]
+    1. background-position: top; [default] [ছবির উপর হতে শুরু হবে]
+    2. background-position: bottom; 
+    3. background-position: center center; [Recommended]
 
-    5. border-radius: 20px 10px 5px 3px; [top-left, top-right, bottom-right & bottom-left] (Like as Watch)
-       border-radius: 20px 10px; [top-left & bottom-right And top-right & left-bottom]
+    1. border-radius: 20px 10px 5px 3px; [top-left, top-right, bottom-right & bottom-left] (Like as Watch)
+    2. border-radius: 20px 10px; [top-left & bottom-right And top-right & left-bottom]
 
     Note: 
     1. background-repeat: no-repeat;
-       background-size: cover;
-       background-position: center center;
+    2. background-size: cover;
+    3. background-position: center center;
     
     2. Block-Element এর default কোন height width থাকে না
     3. rgb color(red, green, blue)
