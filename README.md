@@ -24,4 +24,32 @@ Note:
 
 2. Background Image Property:
 
+    1. background-image: url("") [Direct link]
+       background-image: url("./rsc/bg-jpg") [Internal link]
+
+    2. background-repeat: no-repeat [Recommended]
+       background-repeat: repeat-x [left to right]
+       background-repeat: repeat-y [top to bottom]
+     
+    3. background-size: 100px; [rectangle view]
+       background-size: 100px 100px; [squire view]
+       background-size: auto; [dafult]
+       background-size: cover; [Recommended]
+       background-size: contain; [শুধুমাত্র যতটুকু কনেটন্ট থাকবে ততটুকু কভার করবে]
+
+    4. background-position: top; [default] [ছবির উপর হতে শুরু হবে]
+       background-position: bottom; 
+       background-position: center center; [Recommended]
+
+    5. border-radius: 20px 10px 5px 3px; [top-left, top-right, bottom-right & bottom-left] (Like as Watch)
+       border-radius: 20px 10px; [top-left & bottom-right And top-right & left-bottom]
+
+    Note: 
+    1. background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center center;
+    
+    2. Block-Element এর default কোন height width থাকে না
+    3. rgb color(red, green, blue)
+    4. web page শুরু থেকে রিড করে অর্থাৎ একই প্রোপার্টি দুইটি ব্যবহার করলে ১ম টির ভ্যালু গ্রহণযোগ্য নয়। অর্থাৎ   সর্বশেষ ভ্যাটু টি শো করবে।
     
