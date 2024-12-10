@@ -1,0 +1,145 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#navbar{
+    position: sticky;
+    top: 0px;
+}
+
+#container{
+    max-width: 100%;
+    height:60px;
+    background-color: #639e63;
+    margin: 0 auto;
+    margin-top: 5px;
+
+    display: flex;
+    justify-content: space-between;
+
+} 
+
+/* profile design starts here */
+
+#profile{
+    width:33%;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 5px;
+    top: 25px;
+}
+
+#profile > img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;  
+}
+
+/* profile banner design starts here */
+/* 
+#profile_banner{
+    width:33%;
+    text-align: center;
+    margin-top: 5px;
+    margin-right: 20px;
+    top: 25px;
+}
+
+#profile_banner > img{ 
+    width: 50px;
+    height: 50px;
+} */
+
+/* nav menu starts here */
+
+#nav_menu {
+    width:33%;
+    text-align: right;
+    margin-top: 5px;
+    margin-right: 20px;
+    top: 25px;
+}
+
+#nav_menu ul li{
+    list-style-type: none;
+    float: right;
+    margin: 10px;
+}
+
+#nav_menu ul li a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-family: "Oswald", serif;
+    color: khaki;
+    text-align: center;
+    opacity: 0.8;
+}
+
+#nav_menu ul li a:hover{
+    text-decoration: overline;
+    opacity: 1;
+}
+
+/* nav design ends here */
+
+#linear{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(#ff000017, #ffff009c), url(./image/cover.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-bottom: 5px;
+
+}
+
+#cover_photo{
+    max-width:100vh;
+    float: left;
+
+}
+
+#cover_photo h1, p{
+    color: green;
+    margin-left:20px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    text-align: justify;
+
+}
+
+#div2 {
+    height: 100vh;
+    width:100%;
+    /* background-image: url(./image/cover2.jpg); */
+    background: linear-gradient(red, green, blue, yellow);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 5px;
+}
+
+#div3{
+    height: 100vh;
+    width:100%;
+    background: radial-gradient(red, green);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 5px;
+}
+
+#div4{
+    height: 100vh;
+    width:100%;
+    background: conic-gradient(red, green);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
